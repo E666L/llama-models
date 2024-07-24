@@ -31,7 +31,7 @@ setup(
     url="https://github.com/meta-llama/llama-models",
     package_dir={"llama_models": "models"},
     classifiers=[],
-    python_requires=">=3.10",
+    python_requires=">=3.11",
     install_requires=read_requirements(),
     include_package_data=True,
 )
